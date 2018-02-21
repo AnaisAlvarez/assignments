@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+
+body {
+	font-size: 24px;
+}
+
+header {
+	height: 105px;
+}
+
+header img {
+	position: absolute;
+	right: 5%;
+	top: 0;
+}
+
+header h1 {
+	position: absolute;
+	left: 5%;
+	top: 0;
+	line-height: 105px;
+}
+
+nav {
+	background-color: black;
+	padding: 1em 5% 1em 5%;
+}
+
+nav ul {
+	display: flex;
+	justify-content:flex-end;
+}
+
+nav li {
+	list-style: none;
+	padding-left: 1em;
+}
+
+nav a {
+	color: white;
+}
+
+main {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5% 0 5%;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+article {
+	width: 60%;
+}
+
+aside {
+	width: 35%;
+	background-color: saddlebrown;
+}
+
+footer {
+	background-color: brown;
+	height: 4em;
+}
+
+.cross-page-quote {
+	background-color: grey;
+	height: 4em;
+}
