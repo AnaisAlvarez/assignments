@@ -1,0 +1,68 @@
+html {
+	background-color: #ffffff;
+}
+
+* {
+	/*The default font on the page should be 'Average Sans' and
+	fall back to the browser's sans-serif font if that is not available.*/
+	font-family: 'Average Sans', sans-serif;
+}
+
+:lang(ja) {
+	font-family: Osaka;
+}
+
+a {
+	color: #0000FF;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+body {
+	font-size: 20px;
+	padding-left: 2em;
+	padding-right: 2em;
+	line-height: 1.5;
+}
+
+.term, h1, h2 {
+	/* The font for headings and the definition terms should be 'Goudy Bookletter 1911'
+	and fall back to the browser's serif font if that is not available.*/
+	font-family: 'Goudy Bookletter 1911', serif;
+}
+
+header h1 {
+	color: #CD8C52;
+}
+
+figure, blockquote { /* can also use id #wedge-and-spoon for that specific image */
+  background-color: #FCF7D3;
+	text-align: center;
+}
+
+.term {
+	font-variant: small-caps;
+	font-size: 1.5em;
+}
+
+.person {
+	background-color: #DEE8BE;
+}
+
+#signed-by {
+	font-variant: small-caps;
+}

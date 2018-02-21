@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+}
+
+h1, h2, h3, blockquote {
+    font-family: "Old Standard TT", serif;
+}
+
+h2, h3, p {
+    margin-bottom: .5em;
+    margin-top: 1em;
+}
+
+h2 {
+    margin-top: .5em;
+}
+
+blockquote {
+    background-color: #cccccc;
+    font-style: italic;
+}
+
+.cross-page-quote {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1em 4em;
+}
+
+
+.in-text-quote {
+    width: 33%;
+    float: left;
+    margin: .5em 1em;
+    padding: 1em;
+}
+
+header {
+    padding-left: 5%;
+    background-color: antiquewhite;
+    height: 75px;
+}
+
+header h1 {
+    line-height: 75px; /** setting line-height to equal container height vertically centers the content */
+}
+
+header img {
+    position: absolute;
+    right: 5%;
+    top: 0;
+    height: 75px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    height: 40px;
+    line-height: 40px; /** see line-height comment above **/
+}
+
+nav ul li {
+    list-style: none;
+    text-align: right;
+    padding-left: 24px;
+}
+
+main {
+    background-color: white;
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 5% 2em;
+}
+
+article {
+    width: 65%;
+}
+
+figure {
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+article figure {
+    max-width: 300px;
+    font-size: .8em;
+}
+
+article img {
+    max-width: 300px;
+}
+
+#audubon-portrait {
+    float: right;
+    margin-left: 2em;
+}
+
+#canadian-lynx {
+    float: left;
+    margin-right: 2em;
+}
+
+#american-flamingo {
+    float: right;
+    margin-left: 2em;
+}
+
+
+aside {
+    background-color: sandybrown;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    background-color: saddlebrown;
+    color: #eee;
+    height: 6em;
+    text-align: center;
+    padding-top: 2em;
+    font-size: .9em;
+}
