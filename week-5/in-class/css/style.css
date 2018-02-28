@@ -15,7 +15,7 @@ h1, h2, h3, nav {
 }
 
 h1, h2, h3 {
-    text-transform: uppercase;
+    /**text-transform: uppercase;**/
     margin-bottom: .5rem;
 }
 
@@ -24,6 +24,8 @@ header {
     background-color: #6d6fae;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 header img {
@@ -40,6 +42,8 @@ nav {
     background-color: #6d6fae;
     color: white;
     position: relative;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 nav div.dropdown {
@@ -81,12 +85,55 @@ div.dropbtn {
 
 
 /** Stuff in the main body **/
+main {
+    display: flex;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 1rem; 
+}
+
 article p {
     margin-bottom: 1em;
 }
 
+.fables {
+  width: 50%;
+  text-align: center;
+}
+
+aside {
+  width: 25rem;
+}
+
+article {
+  text-align: left;
+}
+
+.scroll {
+  width: 12.5rem;
+}
+
+/** first image **/
+#boys-and-frog img {
+  float: left;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+/** second image **/
+#tortoise-and-ducks img {
+  float: right;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+/** third image **/
+#belling-the-cat img {
+  float: left;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
 .moral {
-    font-style: italic;
+    /** font-style: italic; **/
+    font-weight: bold;
 }
 
 .link-to-source {
@@ -104,4 +151,18 @@ article p {
 footer {
     background-color: #cfc354;
     color: #fffbd5;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.hidden {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
 }
