@@ -67,23 +67,80 @@ main {
 	display: flex;
 	align-items: left;
 	justify-content: center;
-	padding: 1em 0em 8em 0em;
+	padding: 5em 0em 8em 0em;
 	width: 100%;
 }
-/* .row and .column refer to inpiration.html main content*/
-.row {
-  display: flex;
-	justify-content: space-around;
-}
-.column {
-  flex-grow: 1;
-	padding: 20px;
-	justify-content: space-around;
-	color: #66FCF1;
+/* PROJECTS PAGE STYLING */
+.main{
+	display: flex;
+	flex-direction: column;
+	padding: 1em 0em 6em 0em;
 }
 
+.project {
+	display: flex;
+	padding: 20px;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.image {
+	margin: 0;
+	padding: 20px;
+}
+..project-description {
+	padding: 20px;
+}
+/*
+#project-1, #project-2, #project-3 {
+	flex-direction: row;
+} */
+
+/*responsive content: when screen gets below 900px */
+
+
+/* .row and .column in inpiration page main content*/
+.row {
+  display: flex;
+	width: 100%;
+	flex-direction: row;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+  flex-grow: 1;
+	padding: 20px;
+	color: #66FCF1;
+}
+/* responsive: change list position when screen smaller */
+@media screen and (max-width: 900px) {
+  .row { 
+  	flex-direction: column;
+    }
+}
+
+/* link-list styling on inspiration page*/
 .link-list {
+	display: flex;
+	flex-flow: row wrap;
+	height: auto-flow;
+	align-items: start;
+	padding-top: 1em;
 	list-style-type: none;
+}
+.link-list a:link {
+	background-color: #1F2833;
+	color: #66FCF1;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.link-list a:visited {
+    color: #66FCF1;
+}
+.link-list a:hover {
+  background-color: #66FCF1;
+	color: #0B0C10;
 }
 
 /* PROJECTS PAGE */
@@ -137,7 +194,7 @@ footer {
 }
 
 /* footer links styling */
-.bottomnav, .link-list { 
+.bottomnav { 
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
@@ -146,7 +203,7 @@ footer {
 	padding-top: 1em;
 }
 
-.bottomnav, .link-list a:link {
+.bottomnav a:link {
 	background-color: #1F2833;
 	color: #66FCF1;
 	padding: 14px 25px;
@@ -155,11 +212,11 @@ footer {
 	display: inline-block;
 }
 
-.bottomnav, .link-list a:visited {
+.bottomnav a:visited {
     color: #66FCF1;
 }
 
-.bottomnav, .link-list a:hover {
+.bottomnav a:hover {
   background-color: #66FCF1;
 	color: #0B0C10;
 }
