@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Bootstrap</title>
+
+    <!-- This is the Bootstrap stylesheet. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Our stylesheet goes after we load Bootstrap -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header class="bg-dark">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">MyTown Library</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Visit</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">News <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+</header>
+<main role="main">
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Search the library</h1>
+            <p class="lead">Find books, DVDs, and more...</p>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form class="form-inline">
+                        <div class="input-group col-12">
+                            <label for="searchBar" class="sr-only">Search</label>
+                            <input type="text" class="form-control form-control-lg" placeholder="Search for..." id="searchBar">
+                            <span class="input-group-btn">
+                                 <button class="btn btn-secondary btn-lg " type="button">Go!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container pt-5">
+        <div class="row">
+            <div class="col-md-7 this-week-text">
+                <h2>This week at the library</h2>
+                <h4>May 3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                <h4>May 6</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                <h4>May 7</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+            </div>
+
+            <div class="col-md-5 this-week-image">
+                <img src="this-week.jpg" alt="library people" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section class="container pt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="library-renovation-plans.jpg" alt="Blueprints">
+                    <div class="card-body">
+                        <h5 class="card-title">Library renovation plans</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</p>
+                        <a href="#" class="btn btn-primary">See the plans</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="new-shelves.jpg" alt="New shelves">
+                    <div class="card-body">
+                        <h5 class="card-title">The new books are here!</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</p>
+                        <a href="#" class="btn btn-primary">Check 'em out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="cat-in-bookcase.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Cats in the library?</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</p>
+                        <a href="#" class="btn btn-primary">Meet the cats</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="mt-5 pt-5 pb-5 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>Main hours</h5>
+                <ul class="list-unstyled">
+                    <li>Monday: 9a - 5p</li>
+                    <li>Monday: 9a - 5p</li>
+                    <li>Monday: 9a - 5p</li>
+                    <li>Monday: 9a - 5p</li>
+                    <li>Monday: 9a - 5p</li>
+                    <li>Monday: 9a - 5p</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Branch hours</h5>
+                <ul class="list-unstyled">
+                    <li>Monday: 9a - 5p</li>
+                    <li>Monday: 9a - 5p</li>
+                    <li>Monday: 9a - 5p</li>
+                    <li>Monday: 9a - 5p</li>
+                    <li>Monday: 9a - 5p</li>
+                    <li>Monday: 9a - 5p</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>About</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Another resource</a></li>
+                    <li><a href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Contact us</h5>
+                <ul class="list-unstyled">
+                    <li>617-555-5555</li>
+                    <li><a href="#">library@mytown.gov</a></li>
+                    <li><a href="#">Twitter: @mytownlibrary</a></li>
+                    <li><a href="#">Facebook: /mytownlibrary</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Find us</h5>
+                <p>My Town Library<br>
+                    100 My Town Road<br>
+                    Mytown, MA 02111</p>
+                <img src="library-map.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap's required JavaScript -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
