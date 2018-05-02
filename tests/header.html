@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title><?php echo htmlspecialchars($page_title);?></title>	
+	
+	<!--Styling from Bootstrap v3.3.6-->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<!--a specific style template for the website, currently using READABLE. you can find other themes here: https://bootswatch.com/3 and find the link to include in this file here: https://www.bootstrapcdn.com/legacy/bootswatch/-->
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" rel="stylesheet" integrity="sha384-Li5uVfY2bSkD3WQyiHX8tJd0aMF91rMrQP5aAewFkHkVSTT2TmD2PehZeMmm7aiL" crossorigin="anonymous">
+	
+	<!-- custom code to center the navigation. if you don't want centered navigation, get rid of this -->
+	<style>
+		  .navbar-nav {
+				width: 100%;
+				text-align: center;
+		  }
+			
+			.navbar-nav > li {
+				float: none;
+				display: inline-block;
+			}
+	</style>
+	
+	<!--JavaScript from Bootstrap v3.3.6-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+			<div class="row" style="text-align:center;">
+				  <h1>Heading of Your Website</h1>
+					<h2>catchy slogan...</h2>
+			</div>
+			
+		<div class="container">
+
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<ul class="nav navbar-nav">
+												
+					<!-- hyperlinks to pages within the site -->
+				  <li><a href="index.php">Home Page</a></li>   
+					<li><a href="ClassRoster.php">Class Roster</a></li>
+					<li><a href="employee.php">New Employee Register</a></li>
+					<li><a href="grade.php">Course Grade</a></li>
+					<li><a href="search.php">Search People</a></li>
+					
+				</ul>
+			</div>
+		</nav>
+	
+<!-- Script 9.1 - header.html -->

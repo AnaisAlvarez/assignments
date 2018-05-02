@@ -1,0 +1,23 @@
+Anais Alvarez
+Web Develop & Info. Arch
+LIS-467-01
+May 1, 2018
+
+Final Assignment: Small Website
+A brief text description of site.
+
+This website serves as an online portfolio with the following pages:
+Home, Background, Projects, Inspiration, and Contact. Though the pages have
+not yet been filled with content, they serve as a template for current and 
+future professional work so that it may be easily displayed to potential 
+employers. The Home page has a profile image and an "About Me" section.
+The Background page has a timeline that can be used to show significant 
+achievements and/or employment/academic history. The Projects page is meant 
+to showcase prior projects - there are placeholders for an image and
+a short description of the project. The Inspirations page has lists of
+resources, such as books and podcasts, that have influenced projects,
+work ethics, design skills etc. The Contact page has a form displayed
+- at this point this is only a placeholder - where site visitors can 
+submit a message. Finally, the Footer - visible on each of the five pages -
+has links to my resume and other social media pages. I hope to use this
+website as my UX portfolio, and will be adding content to the HTML.
